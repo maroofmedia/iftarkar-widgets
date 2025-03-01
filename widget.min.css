@@ -1,0 +1,109 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; 
+  }
+  
+  /* Widget container */
+  #prayer-timings-widget {
+    max-width: 320px; 
+    margin: 20px auto; 
+    background-color: #ffffff; 
+    border: 2px solid #ff6f61; 
+    border-radius: 12px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px; 
+    text-align: center;
+    font-size: 0.85rem; 
+  }
+  
+  /* Title Styling */
+  #prayer-timings-widget .title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #ff6f61; 
+    margin-bottom: 10px; 
+  }
+  
+  /* Current Date Styling */
+  #prayer-timings-widget .current-date {
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 10px; 
+  }
+  
+  /* Dropdown styling */
+  #institution-select {
+    font-size: 0.85rem;
+    padding: 8px 12px; 
+    border: 2px solid #ff6f61; 
+    border-radius: 8px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+    width: 100%; 
+    margin-bottom: 10px; 
+  }
+  
+  /* Hover effect for dropdown */
+  #institution-select:hover {
+    border-color: #ff4d4d; 
+  }
+  
+  /* Focus effect for dropdown */
+  #institution-select:focus {
+    border-color: #ff4d4d; 
+    box-shadow: 0 0 8px rgba(255, 77, 77, 0.5);
+  }
+  
+  /* Table styling */
+  #prayer-timings-widget table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px; 
+  }
+  
+  #prayer-timings-widget th,
+  #prayer-timings-widget td {
+    padding: 6px 8px; 
+    text-align: center;
+    border: 1px solid #ff6f61; 
+    font-size: 0.8rem; 
+  }
+  
+  #prayer-timings-widget th {
+    background-color: #ff6f61; 
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  #prayer-timings-widget td {
+    background-color: #fff8f8; 
+  }
+  
+  /* Credit Text */
+  #prayer-timings-widget .credit {
+    font-size: 0.7rem;
+    color: #ff6f61; 
+    margin-top: 10px; 
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    #prayer-timings-widget {
+      padding: 10px;
+    }
+  
+    #institution-select {
+      font-size: 0.8rem;
+    }
+  
+    #prayer-timings-widget table {
+      font-size: 0.75rem; 
+    }
+  }
